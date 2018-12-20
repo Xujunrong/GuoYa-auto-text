@@ -116,7 +116,7 @@
         <version>2.22.1</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>src\test\resources\testng\All-TestSuit.xml</suiteXmlFile>
+            <suiteXmlFile>\src\test\resources\testng\api\TestGuoYa.xml</suiteXmlFile>
           </suiteXmlFiles>
           <argLine>
             -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

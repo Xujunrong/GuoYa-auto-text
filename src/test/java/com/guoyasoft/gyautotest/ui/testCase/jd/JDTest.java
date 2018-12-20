@@ -20,7 +20,7 @@ public class JDTest extends BaseUI {
     jdHomePage.toLogin();
     snapshot((TakesScreenshot) driver, "selenium/jd/loginPage.jpg");
     Assert.assertEquals(driver.getPageSource().contains("登录页面"), true);
-
+addScreenshot2Allure("登录");
     LoginPage loginPage= PageFactory.initElements(driver, LoginPage.class);
     loginPage.accLogin("LudvikWoo", "com.JD.Wl3");
     snapshot((TakesScreenshot) driver, "selenium/jd/loginAction.jpg");
